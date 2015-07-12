@@ -1,5 +1,5 @@
 
-alpha=rbeta(50,5,10)
+alfa=rbeta(50,5,10)
 
 pr0=alfa/sum(alfa)
 
