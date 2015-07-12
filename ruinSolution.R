@@ -24,11 +24,9 @@ ruinStrategy = function()
   return (countRuin)
 }
 
-
 result <- replicate(M, ruinStrategy())
 p <- 1/M * sum(result)  #Prawdopodobienstwo
 2*sd(result)/sqrt(M)    #Odchylenie standardowe
-
 
 expRuinStrategy = function()
 {
