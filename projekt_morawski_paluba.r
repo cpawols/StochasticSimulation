@@ -1,6 +1,6 @@
 
-alfa=rbeta(50,5,10)
-#Komentarz
+alpa=rbeta(50,5,10)
+
 pr0=alfa/sum(alfa)
 
 n=10
